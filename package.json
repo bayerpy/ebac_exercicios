@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass source/main.scss build/main.css --watch",
+    "less": "less-watch-compiler ./src/styles ./build/styles main.less" ,
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.71.1"
+    "less": "^4.2.0"
   }
 }
