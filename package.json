@@ -1,15 +1,19 @@
 {
-  "name": "exercicio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "calculadora_aritimetica",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "sass": "sass source/main.scss build/main.css --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "vue": "^3.4.29"
+  },
   "devDependencies": {
-    "sass": "^1.71.1"
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.1"
   }
 }
